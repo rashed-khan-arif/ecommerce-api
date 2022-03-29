@@ -1,12 +1,14 @@
 import { Product } from "../data/entity/product";
 
-export class ProductController {
+class ProductController {
     constructor() {
 
     }
 
-    insert(product: Product){
-        
+    insert(product: Product) {
+
     }
 
 }
+
+export default new ProductController();
